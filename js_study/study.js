@@ -1,18 +1,18 @@
 const calculator={
     add : function(a,b){
-        console.log(a+b);
+        alert(a+b);
     },
     minus: function(a,b){
-        console.log(a-b);
+        alert(a-b);
     },
     multi: function(a,b){
-        console.log(a*b)
+        alert(a*b)
     },
     div: function(a,b){
-        console.log(a/b);
+        alert(a/b);
     },
     poweroff: function(a,b){
-        console.log(a**b)
+        alert(a**b);
     }
 };
 

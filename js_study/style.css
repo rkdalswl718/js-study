@@ -24,6 +24,14 @@
     margin-right: 7px;
 }
 
+.content {
+    margin-top: 10px;
+}
+
+.contents {
+    margin-top: 5px;
+}
+
 .names {
     justify-content: center;
 }

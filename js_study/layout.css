@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../js_study/img/windowbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+    color: #000;
+    padding-top: 230px;
+}
+
+.main {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction:column;
+}
+
+.main-content {
+    font-size: 18px;
+    width: 500px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(88, 0, 211);
+    margin-top: 20px;
+    color: #fff;
+}

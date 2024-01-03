@@ -3,8 +3,26 @@
     padding: 0;
 }
 
+body {
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    width: 60px;
+    background-color: rgb(234, 255, 188);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 #section {
-    width: 800px;
+    width: 900px;
     display: flex;
     margin: auto;
 }
@@ -30,6 +48,8 @@
 
 .contents {
     margin-top: 5px;
+    width: 700px;
+    margin-right: 20px;
 }
 
 .names {
@@ -42,16 +62,19 @@
 
 #shareIcon {
     width: 24px;
-    margin-left: 650px;
-    float: left;
+    margin-left: 600px;
 }
 
+.two {
+    text-align: center; /* 이미지를 가운데 정렬합니다. */
+}
 
 .productImg {
     width: 100px;
     height: 100px;
-    margin-top: 150px;
+    margin-top: 150px; /* 필요에 따라 조절하세요. */
 }
+
 
 p {
     font-size: 14px;

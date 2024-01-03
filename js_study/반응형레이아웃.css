@@ -15,7 +15,7 @@
 }
 
 .all {
-    max-width: 1500px;
+    max-width: 1000px;
     display: flex;
     flex-wrap: wrap; /* 추가: 화면이 작아질 때 줄 바꿈을 위해 필요한 속성 */
     justify-content: center; 

@@ -1,81 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    overflow: hidden;
-}
-
-nav li {
-    display: inline-block;
-}
-
-.navbar a {
-    font-size: 16px;
-    text-decoration: none;
-    width: 60px;
-    background-color: rgb(234, 255, 188);
-    text-align: center;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-#section {
-    width: 900px;
-    display: flex;
-    margin: auto;
-}
-
-
-.profile {
-    display: flex;
-    margin-top: 100px;
-    
-}
-
-
-.profileImg {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    margin-right: 7px;
-}
-
-.content {
-    margin-top: 10px;
-}
-
-.contents {
-    margin-top: 5px;
-    width: 700px;
-    margin-right: 20px;
-}
-
-.names {
-    justify-content: center;
-}
-
-.hours {
-    font-size: 12px;
-}
-
-#shareIcon {
-    width: 24px;
-    margin-left: 600px;
-}
-
-.two {
-    text-align: center; /* 이미지를 가운데 정렬합니다. */
-}
-
-.productImg {
-    width: 100px;
-    height: 100px;
-    margin-top: 150px; /* 필요에 따라 조절하세요. */
-}
-
-
-p {
-    font-size: 14px;
-}
+.alert-box {
+    background-color: skyblue;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    display: none;
+  } 
+  
